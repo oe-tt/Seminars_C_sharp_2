@@ -2,9 +2,13 @@
 Console.Clear();
 Console.WriteLine("Введите число");
 int N = int.Parse(Console.ReadLine());
-int i = 1;
-while (i <= N)
+// int i = 1;
+// while (i <= N)
+// {
+//     Console.Write (i*i + " ");
+//     i++;
+// }
+for (int i = 1 ; i <= N ; i++)
 {
-    Console.Write (i*i + " ");
-    i++;
+    Console.Write($"{i*i} ");
 }
