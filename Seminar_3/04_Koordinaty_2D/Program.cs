@@ -12,6 +12,6 @@ Console.Write("y = ");
 int y2 = int.Parse(Console.ReadLine());
 // Console.WriteLine(Math.Pow((x2-x1),2));
 // Console.WriteLine(Math.Pow((y2-y1),2));
-// Console.WriteLine(Math.Pow((x2-x1),2)-Math.Pow((y2-y1),2));
+// Console.WriteLine(Math.Pow((x2-x1),2)+Math.Pow((y2-y1),2));
 Console.Write("Расстояние между точками:");
 Console.WriteLine(Math.Sqrt(Math.Abs(Math.Pow((x2-x1),2)+Math.Pow((y2-y1),2))));
