@@ -8,20 +8,22 @@ if ((n < 0) || (n > 7))
 }
 else
 {
-if (n < 6)
-{
-    Console.WriteLine("Это не выходной :(");
-}
-else
-{
-if (n < 7)
-{
-    Console.WriteLine("Суббота! Ура, выходной! :)");
-}
-else
-{
+    if (n < 6)
+    {
+        Console.WriteLine("Это не выходной :(");
+    }
+    else
+    {
+        if (n < 7)
+        {
+            Console.WriteLine("Суббота! Ура, выходной! :)");
+        }
+        else
+        {
 
-    Console.WriteLine("Воскресенье! Ура, выходной! :)");
+            Console.WriteLine("Воскресенье! Ура, выходной! :)");
 
-}}}
+        }
+    }
+}
 
