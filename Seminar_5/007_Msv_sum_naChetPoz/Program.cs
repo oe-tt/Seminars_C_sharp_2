@@ -21,7 +21,7 @@ void PrintArray(int[] array)                          // метод для вы�
     Console.WriteLine();
 }
 
-int CountNechetPosition(int[] array)                            // метод для суммирования чисел на нечетных позициях массива 
+int CountNechetPosition(int[] array)                   // метод для суммирования чисел на нечетных позициях массива 
 {
     int N = array.Length;
     int sum = 0;
