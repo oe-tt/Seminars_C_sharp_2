@@ -34,3 +34,24 @@ void SortArray (int [] array)           // Создаем метод для со
 
 SortArray(arr);
 PrintArray(arr);
+
+void SortArrayObratno (int [] array)           // Создаем метод для сортировки массива от большего в меньшему
+{
+       for (int i = 0; i < array.Length-1; i++)
+    {
+        int maxPosition = i;
+
+        for (int j = i+1; j < array.Length; j++)
+        {
+            if (array[j] > array[maxPosition])  maxPosition = j;
+        }
+
+        int temporary = array[i]; 
+        array[i] = array[maxPosition];
+        array[maxPosition] = temporary;
+    }
+    Console.WriteLine();
+}
+
+SortArrayObratno(arr);
+PrintArray(arr);
