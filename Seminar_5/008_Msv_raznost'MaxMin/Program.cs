@@ -24,7 +24,7 @@ void PrintArray(double[] array)                          // метод для в
 double minArray(double[] array)                          // метод для нахождения минимального элемента массива
 {
     int N = array.Length;
-    double min = 0;
+    double min = array[0];
     for (int i = 0; i<N; i++)
     {
         if (array[i]<min)   min = array[i];
@@ -35,7 +35,7 @@ double minArray(double[] array)                          // метод для н
 double maxArray(double[] array)                          // метод для нахождения максимального элемента массива
 {
     int N = array.Length;
-    double max = 0;
+    double max = array[0];
     for (int i = 0; i<N; i++)
     {
         if (array[i]>max)   max = array[i];
