@@ -21,7 +21,7 @@ void PrintArray(int[] array)                          // метод для вы�
     Console.WriteLine();
 }
 
-int PoiskNumber(int[] array, int number)                   // метод для поиска нужного числа
+int PoiskNumber(int[] array, int number)              // метод для поиска нужного числа
 {
     int N = array.Length;
     int IndexNumber = -1;
@@ -32,7 +32,7 @@ int PoiskNumber(int[] array, int number)                   // метод для 
     return IndexNumber;
 }
 
-void PrintNumber(int number)
+void PrintNumber(int number)                        // метод для вывода результата посика
 {
     if (number == -1)
     {
