@@ -6,7 +6,7 @@ void PrintArray(int[] array)                          // метод для вы�
     int N = array.Length;
     for (int i = 0; i < N; i++)
     {
-        Console.Write($"{array[i]} ");
+        Console.Write($"{array[i]}");
     }
     Console.WriteLine();
 }
