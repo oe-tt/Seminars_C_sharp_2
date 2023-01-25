@@ -4,16 +4,13 @@ Console.Clear();
 void Koordinaty(int a, int b, int aa, int bb)
 {
     if (a == aa && b == bb) Console.WriteLine("Эти прямые полностью совпадают.");
+    else if (a == aa) Console.WriteLine("Эти прямые параллельны, они никогда не пересекутся.");
     else
     {
-        if (a == aa) Console.WriteLine("Эти прямые параллельны, они никогда не пересекутся.");
-        else
-        {
-            int x = (b - bb) / (aa - a);
-            int y = a * x + b;
+        int x = (b - bb) / (aa - a);
+        int y = a * x + b;
 
-            Console.WriteLine($"Прямые пересекутся в точке [{x};{y}].");
-        }
+        Console.WriteLine($"Прямые пересекутся в точке [{x};{y}].");
     }
 }
 
