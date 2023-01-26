@@ -1,7 +1,7 @@
 ﻿// Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
 Console.Clear();
 
-double[,] GetArray(int m, int n, int minValue, int maxValue)            // методя для создания массива вещественных чисел
+double[,] GetArray(int m, int n, int minValue, int maxValue)            // метод для создания массива вещественных чисел
 {
     double[,] result = new double[m, n];
     for (int i = 0; i < m; i++)
