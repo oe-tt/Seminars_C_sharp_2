@@ -65,6 +65,6 @@ int m = int.Parse(Console.ReadLine());
 Console.Write("Введите количество столбцов массива: ");
 int n = int.Parse(Console.ReadLine());
 
-double[,] Array = GetArray(m, n, -10, 10);
+double[,] Array = GetArray(m, n, -100, 100);
 PrintArray(Array);
 FindNomber(Array);
