@@ -3,7 +3,7 @@ Console.Clear();
 int SumFor (int n)          // функция без рекурсии
 {
     int result = 0;
-    for (int i = 1; i<= n; i++) result +=1;
+    for (int i = 1; i<= n; i++) result +=i;
     return result;
 }
 
